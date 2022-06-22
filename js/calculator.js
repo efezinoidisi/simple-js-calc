@@ -9,14 +9,16 @@ secondNumber = parseFloat(prompt("Enter the second number:"));
 
 if (operatorChoice == "+") {
 	result = firstNumber + secondNumber;
+	alert(`${firstNumber}+${secondNumber}= ${result}`);
 } else if (operatorChoice == "-") {
 	result = firstNumber - secondNumber;
+	alert(`${firstNumber}-${secondNumber}= ${result}`);
 } else if (operatorChoice == "/") {
 	result = firstNumber / secondNumber;
+	alert(`${firstNumber}/${secondNumber}= ${result}`);
 } else if (operatorChoice == "*") {
 	result = firstNumber * secondNumber;
+	alert(`${firstNumber}*${secondNumber}= ${result}`);
 } else {
 	alert("Invalid selection, Refresh and try again");
 }
-
-alert(`${firstNumber}+${secondNumber}= ${result}`);
